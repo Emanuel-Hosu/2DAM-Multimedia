@@ -25,7 +25,7 @@ Here, you'll find a collection of projects, exercises, and what we professionall
 
 1. **Clone this repo** (and our hopes and dreams along with it):
    ```bash
-   git clone https://github.com/emisito/2DAM-Multimedia.git
+   git clone https://github.com/Emanuel-Hosu/2DAM-Multimedia.git
    cd 2DAM-Multimedia
    npm install   # Install dependencies and a sense of impending doom
    ```

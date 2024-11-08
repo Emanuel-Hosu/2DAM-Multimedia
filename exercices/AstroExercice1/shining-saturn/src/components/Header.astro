@@ -1,4 +1,6 @@
 ---
+import HeaderButton from "./HeaderButton.astro";
+
 // SpaceXHeader.astro
 ---
 
@@ -12,9 +14,10 @@
       </p>
     </div>
   
-    <nav class="flex flex-col">
-      <a class="text-white" href="/">Últimos lanzamientos</a>
-      <a class="text-white" href="/oldest">Los más viejos</a>
+    <nav class="gap-3 grid grid-cols-3 text-center">
+      <HeaderButton class="text-white" href="/">Últimos lanzamientos</HeaderButton>
+      <HeaderButton class="text-white">Sobre el proyecto</HeaderButton>
+      <HeaderButton class="text-white" href="/oldest">Los más viejos</HeaderButton>
     </nav>
   </header>
   

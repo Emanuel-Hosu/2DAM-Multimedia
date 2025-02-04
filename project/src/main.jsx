@@ -1,0 +1,1 @@
+import './index.css';  // Asegúrate de que este import esté presente
